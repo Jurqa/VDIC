@@ -1,0 +1,1286 @@
+TOOL:	xrun	21.03-s009: Started on Oct 16, 2023 at 22:14:47 CEST
+xrun
+	-F ../tb/tb.f
+		../../common/vdic_dut_2023.svp
+		vdic_dut_2023_tb.sv
+	-v93
+	+nowarnDSEM2009
+	+nowarnDSEMEL
+	+nowarnCGDEFN
+	+nowarnCOVUTA
+	+nowarnBADPRF
+	+nowarnXCLGNOPTM
+	+nowarnRNDXCELON
+	+nowarnSAWSTP
+	-xmlibdirname INCA_libs_gui
+	+access+r
+	+gui
+	+overwrite
+	-nocopyright
+	-coverage all
+	-covoverwrite
+	-covfile xrun_covfile.txt
+	+UVM_TESTNAME=lab01
+	-l xrun_gui.log
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /eda/cadence/2021-22/RHELx86/XCELIUM_21.03.009/tools/methodology/UVM/CDNS-1.1d
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 6
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xrun: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmelab: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmelab: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmelab: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmelab: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmelab: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xmelab: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+
+	Extracting FSMs for coverage:
+		worklib.top
+	Total FSMs extracted = 0
+	Building instance overlay tables: .................... Done
+	Enabling instrumentation for coverage types: block expression FSM toggle functional
+	Building instance specific data structures.
+	Performing constant object marking (COM) analysis.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              2       2
+		Registers:           47      47
+		Scalar wires:        17       -
+		Vectored wires:      10       -
+		Always blocks:        1       1
+		Initial blocks:       4       4
+		Final blocks:         1       1
+		Cont. assignments:    8      10
+		Pseudo assignments:   8       8
+	Writing initial simulation snapshot: worklib.top:sv
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmsim: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmsim: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmsim: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmsim: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmsim: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE connectLib $IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+xmsim: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid environment variable ''.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /eda/cadence/2021-22/RHELx86/XCELIUM_21.03.009/tools/xcelium/files/xmsimrc
+xcelium> source /eda/cadence/2021-22/RHELx86/XCELIUM_21.03.009/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm top.DUT.ack top.DUT.arg_a top.DUT.arg_a_parity top.DUT.arg_b top.DUT.arg_b_parity top.DUT.arg_parity_error top.DUT.clk top.DUT.req top.DUT.result top.DUT.result_parity top.DUT.result_rdy top.DUT.rst_n
+Created probe 1
+xcelium> run
+Test passed for arg_a=24193 arg_b=22115
+Test passed for arg_a=-26227 arg_b=21010
+Test passed for arg_a=-13043 arg_b=-12995
+Test passed for arg_a=-2164 arg_b=9414
+Test passed for arg_a=-11606 arg_b=29303
+Test passed for arg_a=-9329 arg_b=-26930
+Test passed for arg_a=-32768 arg_b=18780
+Test passed for arg_a=22573 arg_b=25187
+Test passed for arg_a=8832 arg_b=-32768
+Test passed for arg_a=-13155 arg_b=-18413
+Test passed for arg_a=-10669 arg_b=10965
+Test passed for arg_a=16046 arg_b=29391
+Test passed for arg_a=25866 arg_b=19516
+Test passed for arg_a=24970 arg_b=13528
+Test passed for arg_a=-32768 arg_b=3563
+Test passed for arg_a=-1594 arg_b=700
+Test passed for arg_a=-26101 arg_b=16773
+Test passed for arg_a=32767 arg_b=13114
+Test passed for arg_a=19221 arg_b=19417
+Test passed for arg_a=-1204 arg_b=32767
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-16293 arg_b=12873
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=12182 arg_b=-12606
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-9454 arg_b=-32403
+Test passed for arg_a=-28897 arg_b=12165
+Test passed for arg_a=-32768 arg_b=19273
+Test passed for arg_a=32767 arg_b=25432
+Test passed for arg_a=3214 arg_b=-26118
+Test passed for arg_a=6003 arg_b=-22481
+Test passed for arg_a=22111 arg_b=-521
+Test passed for arg_a=6886 arg_b=-16087
+Test passed for arg_a=27866 arg_b=-7499
+Test passed for arg_a=32767 arg_b=-188
+Test passed for arg_a=-32768 arg_b=-21077
+Test passed for arg_a=-21028 arg_b=29437
+Test passed for arg_a=-4778 arg_b=30311
+Test passed for arg_a=-17994 arg_b=-32768
+Test passed for arg_a=-15176 arg_b=23955
+Test passed for arg_a=-13735 arg_b=-8627
+Test passed for arg_a=9837 arg_b=18890
+Test passed for arg_a=29077 arg_b=-25852
+Test passed for arg_a=32767 arg_b=-17740
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=12487 arg_b=-7160
+Test passed for arg_a=-22787 arg_b=-28644
+Test passed for arg_a=2266 arg_b=-22682
+Test passed for arg_a=-32768 arg_b=-26182
+Test passed for arg_a=31226 arg_b=-2534
+Test passed for arg_a=24887 arg_b=8640
+Test passed for arg_a=6838 arg_b=4060
+Test passed for arg_a=-136 arg_b=-32549
+Test passed for arg_a=32767 arg_b=-6918
+Test passed for arg_a=2327 arg_b=-28282
+Test passed for arg_a=-32768 arg_b=-30667
+Test passed for arg_a=30145 arg_b=-19304
+Test passed for arg_a=17011 arg_b=5770
+Test passed for arg_a=-32600 arg_b=-29535
+Test passed for arg_a=26342 arg_b=32767
+Test passed for arg_a=7466 arg_b=-98
+Test passed for arg_a=-32768 arg_b=-7224
+Test passed for arg_a=16659 arg_b=-20793
+Test passed for arg_a=-25158 arg_b=-27207
+Test passed for arg_a=-25932 arg_b=32767
+Test passed for arg_a=-2566 arg_b=8498
+Test passed for arg_a=-12924 arg_b=-12342
+Test passed for arg_a=-22367 arg_b=27387
+Test passed for arg_a=-28433 arg_b=-6858
+Test passed for arg_a=22159 arg_b=-6264
+Test passed for arg_a=-32357 arg_b=-8408
+Test passed for arg_a=24395 arg_b=-2530
+Test passed for arg_a=-532 arg_b=-32768
+Test passed for arg_a=7302 arg_b=25659
+Test passed for arg_a=-32768 arg_b=25174
+Test passed for arg_a=-1310 arg_b=883
+Test passed for arg_a=-32768 arg_b=17592
+Test passed for arg_a=-18715 arg_b=3883
+Test passed for arg_a=-31288 arg_b=32767
+Test passed for arg_a=28191 arg_b=9048
+Test passed for arg_a=-27884 arg_b=28822
+Test passed for arg_a=-10923 arg_b=11051
+Test passed for arg_a=941 arg_b=32767
+Test passed for arg_a=-7001 arg_b=32767
+Test passed for arg_a=22089 arg_b=4041
+Test passed for arg_a=24225 arg_b=17914
+Test passed for arg_a=1411 arg_b=5234
+Test passed for arg_a=-3480 arg_b=32767
+Test passed for arg_a=8688 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=6853 arg_b=-32768
+Test passed for arg_a=28985 arg_b=-32768
+Test passed for arg_a=-27862 arg_b=13589
+Test passed for arg_a=-25321 arg_b=-7223
+Test passed for arg_a=-13531 arg_b=-23923
+Test passed for arg_a=9991 arg_b=23820
+Test passed for arg_a=31803 arg_b=-15625
+Test passed for arg_a=22620 arg_b=14880
+Test passed for arg_a=-32768 arg_b=-29516
+Test passed for arg_a=-4083 arg_b=17017
+Test passed for arg_a=25853 arg_b=29583
+Test passed for arg_a=10723 arg_b=15793
+Test passed for arg_a=-17259 arg_b=-32768
+Test passed for arg_a=5458 arg_b=-32768
+Test passed for arg_a=-15278 arg_b=-698
+Test passed for arg_a=32144 arg_b=32767
+Test passed for arg_a=22404 arg_b=3964
+Test passed for arg_a=-32768 arg_b=24715
+Test passed for arg_a=7717 arg_b=1186
+Test passed for arg_a=-20460 arg_b=843
+Test passed for arg_a=30023 arg_b=31289
+Test passed for arg_a=-6704 arg_b=17804
+Test passed for arg_a=32767 arg_b=-1775
+Test passed for arg_a=-32768 arg_b=-32397
+Test passed for arg_a=1315 arg_b=26057
+Test passed for arg_a=29407 arg_b=25959
+Test passed for arg_a=9648 arg_b=-16567
+Test passed for arg_a=-18656 arg_b=28563
+Test passed for arg_a=-32214 arg_b=-32768
+Test passed for arg_a=-25286 arg_b=-22485
+Test passed for arg_a=7186 arg_b=-30375
+Test passed for arg_a=-32768 arg_b=10647
+Test passed for arg_a=30630 arg_b=31744
+Test passed for arg_a=32767 arg_b=25100
+Test passed for arg_a=18885 arg_b=32767
+Test passed for arg_a=-32768 arg_b=-23447
+Test passed for arg_a=32767 arg_b=22744
+Test passed for arg_a=-25916 arg_b=-32768
+Test passed for arg_a=32767 arg_b=23088
+Test passed for arg_a=32767 arg_b=-2604
+Test passed for arg_a=32767 arg_b=-21015
+Test passed for arg_a=24321 arg_b=17024
+Test passed for arg_a=-9531 arg_b=-32768
+Test passed for arg_a=32767 arg_b=-18001
+Test passed for arg_a=-20488 arg_b=30447
+Test passed for arg_a=31893 arg_b=19808
+Test passed for arg_a=-5592 arg_b=14121
+Test passed for arg_a=21111 arg_b=-2687
+Test passed for arg_a=-10904 arg_b=-32768
+Test passed for arg_a=-15601 arg_b=-17283
+Test passed for arg_a=-8990 arg_b=-6487
+Test passed for arg_a=32767 arg_b=15535
+Test passed for arg_a=3513 arg_b=13587
+Test passed for arg_a=10065 arg_b=32767
+Test passed for arg_a=2106 arg_b=1890
+Test passed for arg_a=-8918 arg_b=24409
+Test passed for arg_a=27629 arg_b=-13247
+Test passed for arg_a=32767 arg_b=-5939
+Test passed for arg_a=-32768 arg_b=8354
+Test passed for arg_a=-8598 arg_b=24144
+Test passed for arg_a=22565 arg_b=-32768
+Test passed for arg_a=-12708 arg_b=-21639
+Test passed for arg_a=-32768 arg_b=-4594
+Test passed for arg_a=780 arg_b=25044
+Test passed for arg_a=28601 arg_b=-16396
+Test passed for arg_a=-3828 arg_b=-27902
+Test passed for arg_a=-1787 arg_b=10498
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=-29009 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=-28596
+Test passed for arg_a=-22976 arg_b=-18931
+Test passed for arg_a=-32768 arg_b=-10199
+Test passed for arg_a=2096 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=16205
+Test passed for arg_a=-20491 arg_b=4756
+Test passed for arg_a=26044 arg_b=-32768
+Test passed for arg_a=1786 arg_b=25607
+Test passed for arg_a=29781 arg_b=32767
+Test passed for arg_a=2659 arg_b=-12762
+Test passed for arg_a=-32768 arg_b=-2928
+Test passed for arg_a=-31460 arg_b=8107
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-32768 arg_b=-22643
+Test passed for arg_a=-28164 arg_b=2724
+19990 Clock cycles elapsed: 1000
+Test passed for arg_a=13221 arg_b=-16141
+Test passed for arg_a=-32768 arg_b=17244
+Test passed for arg_a=20634 arg_b=-32768
+Test passed for arg_a=-11862 arg_b=-10813
+Test passed for arg_a=25356 arg_b=-573
+Test passed for arg_a=-17928 arg_b=-21111
+Test passed for arg_a=32767 arg_b=10413
+Test passed for arg_a=-32768 arg_b=22479
+Test passed for arg_a=-11749 arg_b=-32768
+Test passed for arg_a=-638 arg_b=-23209
+Test passed for arg_a=818 arg_b=-20764
+Test passed for arg_a=-4950 arg_b=-32768
+Test passed for arg_a=14220 arg_b=-28677
+Test passed for arg_a=26844 arg_b=32767
+Test passed for arg_a=8683 arg_b=11913
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-32768 arg_b=726
+Test passed for arg_a=29978 arg_b=1239
+Test passed for arg_a=5361 arg_b=17157
+Test passed for arg_a=-14440 arg_b=-10710
+Test passed for arg_a=1335 arg_b=-24834
+Test passed for arg_a=3646 arg_b=-32768
+Test passed for arg_a=-30288 arg_b=19730
+Test passed for arg_a=-32768 arg_b=12030
+Test passed for arg_a=2547 arg_b=31851
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=1322 arg_b=9940
+Test passed for arg_a=-15765 arg_b=13044
+Test passed for arg_a=28897 arg_b=29881
+Test passed for arg_a=-29088 arg_b=-13508
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=-11762 arg_b=-15568
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=-28168 arg_b=8019
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=32767 arg_b=-11987
+Test passed for arg_a=-32768 arg_b=14385
+Test passed for arg_a=-8436 arg_b=4885
+Test passed for arg_a=-32768 arg_b=-23724
+Test passed for arg_a=-32768 arg_b=-31037
+Test passed for arg_a=-6436 arg_b=-32768
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-5205 arg_b=-32768
+Test passed for arg_a=-16951 arg_b=32767
+Test passed for arg_a=-10290 arg_b=32767
+Test passed for arg_a=28635 arg_b=-32768
+Test passed for arg_a=7605 arg_b=4920
+Test passed for arg_a=-24488 arg_b=-32768
+Test passed for arg_a=-7260 arg_b=6122
+Test passed for arg_a=-32684 arg_b=-3896
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-32768 arg_b=-22191
+Test passed for arg_a=-7269 arg_b=21424
+Test passed for arg_a=-17585 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=-6074
+Test passed for arg_a=18521 arg_b=-26833
+Test passed for arg_a=-5410 arg_b=-20184
+Test passed for arg_a=31064 arg_b=-6717
+Test passed for arg_a=32164 arg_b=-25130
+Test passed for arg_a=32767 arg_b=-4192
+Test passed for arg_a=-13377 arg_b=15991
+Test passed for arg_a=4213 arg_b=-32768
+Test passed for arg_a=22892 arg_b=-32768
+Test passed for arg_a=-356 arg_b=7855
+Test passed for arg_a=26217 arg_b=-24866
+Test passed for arg_a=4010 arg_b=-32768
+Test passed for arg_a=2458 arg_b=6842
+Test passed for arg_a=29323 arg_b=10444
+Test passed for arg_a=414 arg_b=18555
+Test passed for arg_a=32767 arg_b=-26432
+Test passed for arg_a=-19330 arg_b=-7599
+Test passed for arg_a=32231 arg_b=-10877
+Test passed for arg_a=-24135 arg_b=19063
+Test passed for arg_a=24550 arg_b=32767
+Test passed for arg_a=24594 arg_b=18603
+Test passed for arg_a=-32449 arg_b=6515
+Test passed for arg_a=-7008 arg_b=27508
+Test passed for arg_a=-17438 arg_b=19679
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-32768 arg_b=31677
+Test passed for arg_a=4020 arg_b=-25719
+Test passed for arg_a=-28244 arg_b=7995
+Test passed for arg_a=-29393 arg_b=-23979
+Test passed for arg_a=-270 arg_b=32767
+Test passed for arg_a=5860 arg_b=27753
+Test passed for arg_a=-12083 arg_b=32767
+Test passed for arg_a=-32024 arg_b=11794
+Test passed for arg_a=32767 arg_b=-23304
+Test passed for arg_a=-32768 arg_b=546
+Test passed for arg_a=4650 arg_b=20766
+Test passed for arg_a=-3349 arg_b=-7570
+Test passed for arg_a=11644 arg_b=21643
+Test passed for arg_a=-17097 arg_b=225
+Test passed for arg_a=23626 arg_b=1997
+Test passed for arg_a=-29452 arg_b=16154
+Test passed for arg_a=-31508 arg_b=18221
+Test passed for arg_a=17885 arg_b=31375
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=-2265 arg_b=-15597
+Test passed for arg_a=-26693 arg_b=14921
+Test passed for arg_a=-2550 arg_b=-32768
+Test passed for arg_a=9737 arg_b=-11075
+Test passed for arg_a=10358 arg_b=14991
+Test passed for arg_a=-12933 arg_b=12399
+Test passed for arg_a=8393 arg_b=-23078
+Test passed for arg_a=-3617 arg_b=16752
+Test passed for arg_a=-15279 arg_b=29312
+Test passed for arg_a=-4858 arg_b=25823
+Test passed for arg_a=30084 arg_b=-32768
+Test passed for arg_a=-31472 arg_b=-12116
+Test passed for arg_a=9175 arg_b=12813
+Test passed for arg_a=3795 arg_b=-30929
+Test passed for arg_a=-31817 arg_b=27485
+Test passed for arg_a=32559 arg_b=15003
+Test passed for arg_a=-17431 arg_b=4749
+Test passed for arg_a=-19286 arg_b=-32768
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=2513
+Test passed for arg_a=-27937 arg_b=8536
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=11817 arg_b=-2345
+Test passed for arg_a=4941 arg_b=10879
+Test passed for arg_a=26041 arg_b=-32768
+Test passed for arg_a=20353 arg_b=-4209
+Test passed for arg_a=-4003 arg_b=32767
+Test passed for arg_a=-10903 arg_b=21146
+Test passed for arg_a=1865 arg_b=31290
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=24613 arg_b=-22442
+Test passed for arg_a=7379 arg_b=20736
+Test passed for arg_a=-28952 arg_b=16544
+Test passed for arg_a=20433 arg_b=-32768
+Test passed for arg_a=-30760 arg_b=-32768
+Test passed for arg_a=-20271 arg_b=-4527
+Test passed for arg_a=26547 arg_b=-14720
+Test passed for arg_a=-10424 arg_b=-9167
+Test passed for arg_a=32767 arg_b=16959
+Test passed for arg_a=-32768 arg_b=-27778
+Test passed for arg_a=-1138 arg_b=6632
+Test passed for arg_a=-1526 arg_b=32767
+Test passed for arg_a=-31159 arg_b=-6548
+Test passed for arg_a=-32768 arg_b=-7633
+Test passed for arg_a=21287 arg_b=17556
+Test passed for arg_a=26428 arg_b=10863
+Test passed for arg_a=5623 arg_b=12146
+Test passed for arg_a=23011 arg_b=-20277
+Test passed for arg_a=-32768 arg_b=971
+Test passed for arg_a=-30351 arg_b=-31027
+Test passed for arg_a=3336 arg_b=-26561
+Test passed for arg_a=-32768 arg_b=12338
+Test passed for arg_a=-1186 arg_b=-32768
+Test passed for arg_a=22538 arg_b=14793
+Test passed for arg_a=-8524 arg_b=14644
+Test passed for arg_a=-23763 arg_b=-15010
+Test passed for arg_a=29454 arg_b=-29852
+Test passed for arg_a=-32768 arg_b=-30821
+Test passed for arg_a=-1429 arg_b=-23837
+Test passed for arg_a=9433 arg_b=-21280
+Test passed for arg_a=32767 arg_b=19603
+Test passed for arg_a=-31227 arg_b=-31636
+Test passed for arg_a=-16976 arg_b=32767
+Test passed for arg_a=-16297 arg_b=-7345
+Test passed for arg_a=-24035 arg_b=32767
+Test passed for arg_a=-27802 arg_b=-11969
+Test passed for arg_a=24404 arg_b=-28666
+Test passed for arg_a=-32768 arg_b=-9082
+Test passed for arg_a=-584 arg_b=32767
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=17064 arg_b=26142
+Test passed for arg_a=-32768 arg_b=-6442
+Test passed for arg_a=2729 arg_b=32767
+Test passed for arg_a=-8896 arg_b=-31499
+Test passed for arg_a=-26655 arg_b=24615
+Test passed for arg_a=18041 arg_b=32767
+Test passed for arg_a=-32768 arg_b=23941
+Test passed for arg_a=26739 arg_b=-32768
+39990 Clock cycles elapsed: 2000
+Test passed for arg_a=16948 arg_b=-3759
+Test passed for arg_a=-28644 arg_b=-7500
+Test passed for arg_a=16175 arg_b=-788
+Test passed for arg_a=-13667 arg_b=-32768
+Test passed for arg_a=-2460 arg_b=-111
+Test passed for arg_a=18249 arg_b=-8013
+Test passed for arg_a=-4824 arg_b=31069
+Test passed for arg_a=23500 arg_b=5240
+Test passed for arg_a=-18595 arg_b=-17034
+Test passed for arg_a=-3621 arg_b=17184
+Test passed for arg_a=-19847 arg_b=11410
+Test passed for arg_a=27305 arg_b=-13347
+Test passed for arg_a=-32768 arg_b=-7749
+Test passed for arg_a=-10062 arg_b=-18165
+Test passed for arg_a=-32768 arg_b=-14852
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=-30859 arg_b=28173
+Test passed for arg_a=32767 arg_b=8700
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-21912 arg_b=-32517
+Test passed for arg_a=21670 arg_b=-2321
+Test passed for arg_a=-25167 arg_b=12321
+Test passed for arg_a=-16536 arg_b=-13713
+Test passed for arg_a=-18626 arg_b=32767
+Test passed for arg_a=-13763 arg_b=-32768
+Test passed for arg_a=19956 arg_b=-10496
+Test passed for arg_a=11632 arg_b=-18161
+Test passed for arg_a=24023 arg_b=-8698
+Test passed for arg_a=14666 arg_b=1928
+Test passed for arg_a=-8847 arg_b=-32768
+Test passed for arg_a=-7572 arg_b=26622
+Test passed for arg_a=32767 arg_b=-21311
+Test passed for arg_a=8728 arg_b=-12295
+Test passed for arg_a=-32768 arg_b=18504
+Test passed for arg_a=28624 arg_b=13927
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=21455 arg_b=27122
+Test passed for arg_a=26856 arg_b=-32768
+Test passed for arg_a=11256 arg_b=-19765
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=16532
+Test passed for arg_a=-15071 arg_b=-6421
+Test passed for arg_a=-16850 arg_b=26390
+Test passed for arg_a=-32768 arg_b=-1899
+Test passed for arg_a=-9979 arg_b=32767
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-3529 arg_b=32643
+Test passed for arg_a=-29327 arg_b=628
+Test passed for arg_a=-25870 arg_b=-18296
+Test passed for arg_a=19330 arg_b=-20748
+Test passed for arg_a=32767 arg_b=19585
+Test passed for arg_a=-53 arg_b=-11990
+Test passed for arg_a=13885 arg_b=59
+Test passed for arg_a=-15981 arg_b=7364
+Test passed for arg_a=15218 arg_b=7605
+Test passed for arg_a=428 arg_b=32767
+Test passed for arg_a=-20290 arg_b=32767
+Test passed for arg_a=-32332 arg_b=-32768
+Test passed for arg_a=-31703 arg_b=17950
+Test passed for arg_a=22989 arg_b=19927
+Test passed for arg_a=-14898 arg_b=18634
+Test passed for arg_a=32767 arg_b=-25812
+Test passed for arg_a=32034 arg_b=29571
+Test passed for arg_a=26032 arg_b=4972
+Test passed for arg_a=-32768 arg_b=6530
+Test passed for arg_a=4092 arg_b=32767
+Test passed for arg_a=20492 arg_b=-32768
+Test passed for arg_a=-3711 arg_b=32767
+Test passed for arg_a=-32768 arg_b=22664
+Test passed for arg_a=-25411 arg_b=-32768
+Test passed for arg_a=32767 arg_b=-387
+Test passed for arg_a=-32757 arg_b=655
+Test passed for arg_a=32767 arg_b=14971
+Test passed for arg_a=32453 arg_b=32767
+Test passed for arg_a=-6454 arg_b=32767
+Test passed for arg_a=5597 arg_b=27371
+Test passed for arg_a=-27863 arg_b=-2010
+Test passed for arg_a=10454 arg_b=9870
+Test passed for arg_a=-11529 arg_b=20037
+Test passed for arg_a=20589 arg_b=32767
+Test passed for arg_a=-990 arg_b=12006
+Test passed for arg_a=2309 arg_b=2511
+Test passed for arg_a=-3125 arg_b=32767
+Test passed for arg_a=-32768 arg_b=26476
+Test passed for arg_a=32767 arg_b=-3632
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-32768 arg_b=21541
+Test passed for arg_a=12980 arg_b=-5984
+Test passed for arg_a=19299 arg_b=32767
+Test passed for arg_a=23572 arg_b=-29468
+Test passed for arg_a=1198 arg_b=20900
+Test passed for arg_a=6157 arg_b=-31916
+Test passed for arg_a=-28511 arg_b=-32713
+Test passed for arg_a=11015 arg_b=26462
+Test passed for arg_a=25371 arg_b=4554
+Test passed for arg_a=30024 arg_b=-32768
+Test passed for arg_a=31356 arg_b=-21519
+Test passed for arg_a=-17217 arg_b=15983
+Test passed for arg_a=-31617 arg_b=-32768
+Test passed for arg_a=-13032 arg_b=32767
+Test passed for arg_a=-17903 arg_b=32767
+Test passed for arg_a=18136 arg_b=32767
+Test passed for arg_a=29355 arg_b=25094
+Test passed for arg_a=-31547 arg_b=-17097
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-27074 arg_b=15117
+Test passed for arg_a=-18108 arg_b=32767
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=22688 arg_b=10039
+Test passed for arg_a=14449 arg_b=32767
+Test passed for arg_a=7299 arg_b=-5044
+Test passed for arg_a=25168 arg_b=-15879
+Test passed for arg_a=12462 arg_b=-32768
+Test passed for arg_a=-2931 arg_b=-5651
+Test passed for arg_a=-32060 arg_b=32767
+Test passed for arg_a=10828 arg_b=30943
+Test passed for arg_a=23212 arg_b=-9801
+Test passed for arg_a=-12490 arg_b=-17280
+Test passed for arg_a=-19727 arg_b=12105
+Test passed for arg_a=-2654 arg_b=-32768
+Test passed for arg_a=-1771 arg_b=32767
+Test passed for arg_a=-20749 arg_b=-20
+Test passed for arg_a=-27630 arg_b=24448
+Test passed for arg_a=-17941 arg_b=19280
+Test passed for arg_a=-5859 arg_b=-32768
+Test passed for arg_a=-6456 arg_b=-6976
+Test passed for arg_a=32767 arg_b=23004
+Test passed for arg_a=-11230 arg_b=-4184
+Test passed for arg_a=11566 arg_b=32767
+Test passed for arg_a=406 arg_b=-26748
+Test passed for arg_a=-32768 arg_b=-32103
+Test passed for arg_a=1918 arg_b=6360
+Test passed for arg_a=-11292 arg_b=-26044
+Test passed for arg_a=2356 arg_b=-18468
+Test passed for arg_a=32767 arg_b=-27808
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=6862 arg_b=-5332
+Test passed for arg_a=30010 arg_b=30949
+Test passed for arg_a=-1986 arg_b=-29943
+Test passed for arg_a=32767 arg_b=13943
+Test passed for arg_a=11070 arg_b=522
+Test passed for arg_a=-25630 arg_b=7276
+Test passed for arg_a=-10451 arg_b=11535
+Test passed for arg_a=26708 arg_b=-23936
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-21716 arg_b=-32005
+Test passed for arg_a=12006 arg_b=-8091
+Test passed for arg_a=-9316 arg_b=18163
+Test passed for arg_a=-32768 arg_b=22911
+Test passed for arg_a=-32768 arg_b=7274
+Test passed for arg_a=5125 arg_b=-13275
+Test passed for arg_a=22509 arg_b=32767
+Test passed for arg_a=-6017 arg_b=32767
+Test passed for arg_a=-24331 arg_b=32767
+Test passed for arg_a=25431 arg_b=32767
+Test passed for arg_a=-32768 arg_b=-26943
+Test passed for arg_a=-19479 arg_b=-18406
+Test passed for arg_a=-16753 arg_b=-32768
+Test passed for arg_a=12727 arg_b=-32311
+Test passed for arg_a=26847 arg_b=16327
+Test passed for arg_a=-32768 arg_b=1974
+Test passed for arg_a=-32768 arg_b=-21858
+Test passed for arg_a=-7132 arg_b=-13009
+Test passed for arg_a=-23359 arg_b=16006
+Test passed for arg_a=32767 arg_b=4217
+Test passed for arg_a=31172 arg_b=-32768
+Test passed for arg_a=-30843 arg_b=28879
+Test passed for arg_a=29772 arg_b=-19401
+Test passed for arg_a=-7189 arg_b=-32768
+Test passed for arg_a=32767 arg_b=-17104
+Test passed for arg_a=25993 arg_b=-19983
+Test passed for arg_a=10474 arg_b=10592
+Test passed for arg_a=-20267 arg_b=-32768
+59990 Clock cycles elapsed: 3000
+Test passed for arg_a=-23014 arg_b=31588
+Test passed for arg_a=-21456 arg_b=32767
+Test passed for arg_a=9449 arg_b=3931
+Test passed for arg_a=-6020 arg_b=-26559
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=-24384 arg_b=-845
+Test passed for arg_a=-32768 arg_b=19666
+Test passed for arg_a=-9891 arg_b=32767
+Test passed for arg_a=-18989 arg_b=32767
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-21240 arg_b=-10942
+Test passed for arg_a=-32768 arg_b=24567
+Test passed for arg_a=-2572 arg_b=-32768
+Test passed for arg_a=32767 arg_b=-29668
+Test passed for arg_a=11090 arg_b=26566
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=27687 arg_b=13316
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-15349 arg_b=28907
+Test passed for arg_a=-32768 arg_b=12918
+Test passed for arg_a=9352 arg_b=8012
+Test passed for arg_a=26381 arg_b=32767
+Test passed for arg_a=-3223 arg_b=22758
+Test passed for arg_a=24857 arg_b=28338
+Test passed for arg_a=29070 arg_b=-14990
+Test passed for arg_a=3937 arg_b=9094
+Test passed for arg_a=-7598 arg_b=6187
+Test passed for arg_a=23840 arg_b=-3114
+Test passed for arg_a=-22060 arg_b=-17469
+Test passed for arg_a=-20137 arg_b=15688
+Test passed for arg_a=8356 arg_b=-32768
+Test passed for arg_a=3466 arg_b=3778
+Test passed for arg_a=24256 arg_b=2091
+Test passed for arg_a=-28476 arg_b=22755
+Test passed for arg_a=-550 arg_b=-18112
+Test passed for arg_a=32767 arg_b=31494
+Test passed for arg_a=-16706 arg_b=31370
+Test passed for arg_a=-21171 arg_b=-32768
+Test passed for arg_a=-7852 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=-7718
+Test passed for arg_a=-19583 arg_b=32767
+Test passed for arg_a=1706 arg_b=5947
+Test passed for arg_a=32767 arg_b=12961
+Test passed for arg_a=-31507 arg_b=28022
+Test passed for arg_a=-6849 arg_b=-7911
+Test passed for arg_a=32767 arg_b=14771
+Test passed for arg_a=31835 arg_b=32767
+Test passed for arg_a=32767 arg_b=-20432
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=3276 arg_b=32767
+Test passed for arg_a=18603 arg_b=8318
+Test passed for arg_a=32767 arg_b=-20054
+Test passed for arg_a=-24276 arg_b=3680
+Test passed for arg_a=-32768 arg_b=-13246
+Test passed for arg_a=32321 arg_b=-4531
+Test passed for arg_a=10812 arg_b=-32768
+Test passed for arg_a=-20829 arg_b=-24835
+Test passed for arg_a=-1738 arg_b=-19497
+Test passed for arg_a=32767 arg_b=5932
+Test passed for arg_a=-12323 arg_b=-32768
+Test passed for arg_a=23864 arg_b=31449
+Test passed for arg_a=32767 arg_b=17789
+Test passed for arg_a=12278 arg_b=7482
+Test passed for arg_a=-29888 arg_b=-5406
+Test passed for arg_a=-32768 arg_b=16517
+Test passed for arg_a=4696 arg_b=-24428
+Test passed for arg_a=28997 arg_b=15117
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=17512
+Test passed for arg_a=-3886 arg_b=-12543
+Test passed for arg_a=-32768 arg_b=-23974
+Test passed for arg_a=165 arg_b=8477
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=5323 arg_b=-13771
+Test passed for arg_a=-13731 arg_b=32767
+Test passed for arg_a=32767 arg_b=20618
+Test passed for arg_a=7094 arg_b=29394
+Test passed for arg_a=32767 arg_b=3502
+Test passed for arg_a=-22000 arg_b=-32220
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-32768 arg_b=-16345
+Test passed for arg_a=11884 arg_b=22550
+Test passed for arg_a=32767 arg_b=-18733
+Test passed for arg_a=13362 arg_b=30408
+Test passed for arg_a=-23163 arg_b=25989
+Test passed for arg_a=-32768 arg_b=22845
+Test passed for arg_a=10225 arg_b=-31063
+Test passed for arg_a=32767 arg_b=-32061
+Test passed for arg_a=-22700 arg_b=-3852
+Test passed for arg_a=27295 arg_b=-2908
+Test passed for arg_a=32767 arg_b=16650
+Test passed for arg_a=-20708 arg_b=5548
+Test passed for arg_a=-3406 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=-15048
+Test passed for arg_a=-1388 arg_b=-32768
+Test passed for arg_a=-2072 arg_b=-32768
+Test passed for arg_a=1453 arg_b=-15144
+Test passed for arg_a=19400 arg_b=-31733
+Test passed for arg_a=-12568 arg_b=-32768
+Test passed for arg_a=32767 arg_b=24240
+Test passed for arg_a=32767 arg_b=5304
+Test passed for arg_a=17126 arg_b=5821
+Test passed for arg_a=7833 arg_b=21
+Test passed for arg_a=-6109 arg_b=-11558
+Test passed for arg_a=-238 arg_b=32767
+Test passed for arg_a=12725 arg_b=18555
+Test passed for arg_a=-17057 arg_b=16296
+Test passed for arg_a=-32768 arg_b=-8564
+Test passed for arg_a=-301 arg_b=-17189
+Test passed for arg_a=20585 arg_b=-32768
+Test passed for arg_a=7289 arg_b=-9954
+Test passed for arg_a=-12456 arg_b=-2097
+Test passed for arg_a=-25998 arg_b=12280
+Test passed for arg_a=13063 arg_b=-32768
+Test passed for arg_a=-23590 arg_b=10181
+Test passed for arg_a=28840 arg_b=20454
+Test passed for arg_a=22 arg_b=-21299
+Test passed for arg_a=-21055 arg_b=-32768
+Test passed for arg_a=32767 arg_b=-29040
+Test passed for arg_a=-18410 arg_b=-31442
+Test passed for arg_a=-32768 arg_b=6575
+Test passed for arg_a=32767 arg_b=11470
+Test passed for arg_a=-8480 arg_b=-25934
+Test passed for arg_a=32767 arg_b=-8141
+Test passed for arg_a=-19097 arg_b=16958
+Test passed for arg_a=10950 arg_b=21413
+Test passed for arg_a=-12870 arg_b=-18296
+Test passed for arg_a=9243 arg_b=-32768
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=-24443 arg_b=-32768
+Test passed for arg_a=-5998 arg_b=-654
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=32563 arg_b=32767
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=6499 arg_b=-22244
+Test passed for arg_a=-17228 arg_b=5476
+Test passed for arg_a=21843 arg_b=23766
+Test passed for arg_a=-24377 arg_b=-25911
+Test passed for arg_a=6881 arg_b=-21067
+Test passed for arg_a=32767 arg_b=27291
+Test passed for arg_a=-3054 arg_b=13537
+Test passed for arg_a=-4716 arg_b=-14452
+Test passed for arg_a=15204 arg_b=-32768
+Test passed for arg_a=-21424 arg_b=32767
+Test passed for arg_a=11656 arg_b=17211
+Test passed for arg_a=-9714 arg_b=-26657
+Test passed for arg_a=-142 arg_b=28510
+Test passed for arg_a=-6547 arg_b=32767
+Test passed for arg_a=-27168 arg_b=-32768
+Test passed for arg_a=32767 arg_b=31731
+Test passed for arg_a=32767 arg_b=-29852
+Test passed for arg_a=26074 arg_b=-20807
+Test passed for arg_a=20109 arg_b=-19792
+Test passed for arg_a=-18455 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=27326
+Test passed for arg_a=32767 arg_b=1956
+Test passed for arg_a=32767 arg_b=-1064
+Test passed for arg_a=-23834 arg_b=14861
+Test passed for arg_a=32621 arg_b=-32768
+Test passed for arg_a=7899 arg_b=-9174
+Test passed for arg_a=-31122 arg_b=28328
+Test passed for arg_a=-32768 arg_b=-7957
+Test passed for arg_a=-29307 arg_b=-3795
+Test passed for arg_a=-32768 arg_b=-25476
+Test passed for arg_a=27192 arg_b=-8104
+Test passed for arg_a=-19009 arg_b=-2583
+Test passed for arg_a=28771 arg_b=4931
+Test passed for arg_a=15803 arg_b=13633
+Test passed for arg_a=32767 arg_b=22676
+Test passed for arg_a=-20823 arg_b=10121
+Test passed for arg_a=9395 arg_b=-26792
+Test passed for arg_a=32767 arg_b=31892
+Test passed for arg_a=-5710 arg_b=-1381
+Test passed for arg_a=11465 arg_b=-3511
+Test passed for arg_a=7385 arg_b=15577
+Test passed for arg_a=-1718 arg_b=30451
+79990 Clock cycles elapsed: 4000
+Test passed for arg_a=-18022 arg_b=-32768
+Test passed for arg_a=-30957 arg_b=23880
+Test passed for arg_a=32767 arg_b=-25323
+Test passed for arg_a=7254 arg_b=30374
+Test passed for arg_a=12177 arg_b=-32768
+Test passed for arg_a=14488 arg_b=-28482
+Test passed for arg_a=-2625 arg_b=-16272
+Test passed for arg_a=-2634 arg_b=8360
+Test passed for arg_a=17186 arg_b=32767
+Test passed for arg_a=-20843 arg_b=29987
+Test passed for arg_a=-28883 arg_b=-28659
+Test passed for arg_a=27933 arg_b=-11961
+Test passed for arg_a=-31246 arg_b=-12283
+Test passed for arg_a=32767 arg_b=-30384
+Test passed for arg_a=-31136 arg_b=-21592
+Test passed for arg_a=3395 arg_b=28647
+Test passed for arg_a=9058 arg_b=32767
+Test passed for arg_a=-17790 arg_b=4889
+Test passed for arg_a=-9042 arg_b=28711
+Test passed for arg_a=10053 arg_b=32767
+Test passed for arg_a=32767 arg_b=29783
+Test passed for arg_a=1239 arg_b=25164
+Test passed for arg_a=28361 arg_b=-32768
+Test passed for arg_a=-21000 arg_b=4190
+Test passed for arg_a=-32768 arg_b=14715
+Test passed for arg_a=16552 arg_b=32767
+Test passed for arg_a=13649 arg_b=-34
+Test passed for arg_a=-22142 arg_b=32767
+Test passed for arg_a=-15296 arg_b=-21067
+Test passed for arg_a=24113 arg_b=32767
+Test passed for arg_a=-24566 arg_b=32767
+Test passed for arg_a=-7620 arg_b=32767
+Test passed for arg_a=13947 arg_b=-32768
+Test passed for arg_a=-18406 arg_b=32767
+Test passed for arg_a=13634 arg_b=30657
+Test passed for arg_a=-18324 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=30490
+Test passed for arg_a=12604 arg_b=8488
+Test passed for arg_a=32767 arg_b=8747
+Test passed for arg_a=32654 arg_b=-29376
+Test passed for arg_a=20942 arg_b=21793
+Test passed for arg_a=-1781 arg_b=-9524
+Test passed for arg_a=13157 arg_b=-32768
+Test passed for arg_a=4411 arg_b=101
+Test passed for arg_a=32767 arg_b=2873
+Test passed for arg_a=-32768 arg_b=8443
+Test passed for arg_a=26688 arg_b=15968
+Test passed for arg_a=32767 arg_b=-30225
+Test passed for arg_a=4364 arg_b=-32768
+Test passed for arg_a=-14872 arg_b=32767
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=-6637 arg_b=-32768
+Test passed for arg_a=16334 arg_b=24658
+Test passed for arg_a=7818 arg_b=15848
+Test passed for arg_a=32767 arg_b=-28128
+Test passed for arg_a=-31966 arg_b=1571
+Test passed for arg_a=-8855 arg_b=23608
+Test passed for arg_a=-8512 arg_b=4317
+Test passed for arg_a=32767 arg_b=8331
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=13903 arg_b=26098
+Test passed for arg_a=10115 arg_b=-31493
+Test passed for arg_a=23506 arg_b=10340
+Test passed for arg_a=-74 arg_b=23309
+Test passed for arg_a=-32768 arg_b=-25736
+Test passed for arg_a=-2857 arg_b=28758
+Test passed for arg_a=9428 arg_b=-32144
+Test passed for arg_a=-18326 arg_b=3600
+Test passed for arg_a=19097 arg_b=4572
+Test passed for arg_a=15355 arg_b=-32768
+Test passed for arg_a=23433 arg_b=-14388
+Test passed for arg_a=-14901 arg_b=8559
+Test passed for arg_a=6964 arg_b=14674
+Test passed for arg_a=12074 arg_b=-18016
+Test passed for arg_a=-30949 arg_b=3669
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=25831 arg_b=-499
+Test passed for arg_a=-22645 arg_b=-2712
+Test passed for arg_a=32767 arg_b=32706
+Test passed for arg_a=20061 arg_b=15755
+Test passed for arg_a=-26724 arg_b=-14843
+Test passed for arg_a=-20040 arg_b=32767
+Test passed for arg_a=32767 arg_b=-3070
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-32261 arg_b=-19294
+Test passed for arg_a=12021 arg_b=-17013
+Test passed for arg_a=-25011 arg_b=32767
+Test passed for arg_a=-15645 arg_b=-1733
+Test passed for arg_a=5449 arg_b=12089
+Test passed for arg_a=2646 arg_b=-32768
+Test passed for arg_a=3403 arg_b=19275
+Test passed for arg_a=-1387 arg_b=-32768
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=-3381 arg_b=-22590
+Test passed for arg_a=27606 arg_b=26849
+Test passed for arg_a=16597 arg_b=-10039
+Test passed for arg_a=17178 arg_b=-24577
+Test passed for arg_a=-1328 arg_b=11417
+Test passed for arg_a=-18794 arg_b=-22416
+Test passed for arg_a=32408 arg_b=728
+Test passed for arg_a=9631 arg_b=-7109
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-17046 arg_b=-4633
+Test passed for arg_a=32767 arg_b=10766
+Test passed for arg_a=-19482 arg_b=-23840
+Test passed for arg_a=-9329 arg_b=-12775
+Test passed for arg_a=32767 arg_b=22660
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=-29842 arg_b=266
+Test passed for arg_a=32767 arg_b=5366
+Test passed for arg_a=31680 arg_b=24433
+Test passed for arg_a=-28542 arg_b=18366
+Test passed for arg_a=27571 arg_b=2449
+Test passed for arg_a=-23162 arg_b=-24189
+Test passed for arg_a=32767 arg_b=32008
+Test passed for arg_a=-11115 arg_b=-19412
+Test passed for arg_a=-32768 arg_b=-6178
+Test passed for arg_a=-31903 arg_b=-18680
+Test passed for arg_a=-32768 arg_b=-7421
+Test passed for arg_a=-3663 arg_b=-32768
+Test passed for arg_a=30446 arg_b=22523
+Test passed for arg_a=24295 arg_b=32767
+Test passed for arg_a=-13201 arg_b=2320
+Test passed for arg_a=-7749 arg_b=-32768
+Test passed for arg_a=13818 arg_b=-32768
+Test passed for arg_a=16604 arg_b=-32768
+Test passed for arg_a=-11715 arg_b=-30211
+Test passed for arg_a=4155 arg_b=-4852
+Test passed for arg_a=32767 arg_b=-15959
+Test passed for arg_a=1680 arg_b=6205
+Test passed for arg_a=-26708 arg_b=-32768
+Test passed for arg_a=5669 arg_b=32767
+Test passed for arg_a=31182 arg_b=8364
+Test passed for arg_a=6201 arg_b=28808
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=17341 arg_b=-32768
+Test passed for arg_a=32767 arg_b=-23522
+Test passed for arg_a=-32768 arg_b=750
+Test passed for arg_a=29321 arg_b=-14593
+Test passed for arg_a=4968 arg_b=-14038
+Test passed for arg_a=5997 arg_b=17557
+Test passed for arg_a=6751 arg_b=32767
+Test passed for arg_a=3699 arg_b=-32768
+Test passed for arg_a=23423 arg_b=20754
+Test passed for arg_a=11068 arg_b=31604
+Test passed for arg_a=-32768 arg_b=-6492
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=10531 arg_b=-4891
+Test passed for arg_a=-19825 arg_b=-3089
+Test passed for arg_a=-12787 arg_b=-2273
+Test passed for arg_a=-30405 arg_b=-5480
+Test passed for arg_a=-20987 arg_b=30637
+Test passed for arg_a=-13377 arg_b=1898
+Test passed for arg_a=11021 arg_b=-32768
+Test passed for arg_a=15400 arg_b=-16692
+Test passed for arg_a=31791 arg_b=29601
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=28547 arg_b=-1228
+Test passed for arg_a=-28784 arg_b=-3183
+Test passed for arg_a=28367 arg_b=8327
+Test passed for arg_a=27022 arg_b=16468
+Test passed for arg_a=-25531 arg_b=-32768
+Test passed for arg_a=-32768 arg_b=-7512
+Test passed for arg_a=-32768 arg_b=31002
+Test passed for arg_a=-17225 arg_b=-14098
+Test passed for arg_a=-9934 arg_b=7614
+Test passed for arg_a=-29990 arg_b=-15195
+Test passed for arg_a=-593 arg_b=-13303
+Test passed for arg_a=7017 arg_b=-878
+Test passed for arg_a=-32768 arg_b=-9305
+Test passed for arg_a=-32768 arg_b=-12424
+Test passed for arg_a=-32768 arg_b=32613
+Test passed for arg_a=15337 arg_b=-7189
+Test passed for arg_a=-18842 arg_b=-32768
+Test passed for arg_a=-26566 arg_b=-9654
+99990 Clock cycles elapsed: 5000
+Test passed for arg_a=8092 arg_b=-14290
+Test passed for arg_a=-14662 arg_b=30043
+Test passed for arg_a=31562 arg_b=-21077
+Test passed for arg_a=-5936 arg_b=-1223
+Test passed for arg_a=31405 arg_b=-32768
+Test passed for arg_a=2825 arg_b=-7306
+Test passed for arg_a=-9063 arg_b=-1076
+Test passed for arg_a=31502 arg_b=13452
+Test passed for arg_a=424 arg_b=3151
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-16811 arg_b=-3111
+Test passed for arg_a=18004 arg_b=32767
+Test passed for arg_a=28482 arg_b=-15921
+Test passed for arg_a=22161 arg_b=14220
+Test passed for arg_a=-3909 arg_b=32767
+Test passed for arg_a=-14786 arg_b=-20122
+Test passed for arg_a=-19666 arg_b=27111
+Test passed for arg_a=26231 arg_b=32767
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=-5218 arg_b=-10074
+Test passed for arg_a=-12936 arg_b=6951
+Test passed for arg_a=9585 arg_b=14000
+Test passed for arg_a=25903 arg_b=-32768
+Test passed for arg_a=32767 arg_b=-19930
+Test passed for arg_a=-8593 arg_b=-330
+Test passed for arg_a=-32768 arg_b=-9686
+Test passed for arg_a=-32768 arg_b=12803
+Test passed for arg_a=-987 arg_b=-3285
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=-28215 arg_b=-16986
+Test passed for arg_a=-32768 arg_b=-22325
+Test passed for arg_a=-22753 arg_b=16718
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=20459 arg_b=30447
+Test passed for arg_a=-32768 arg_b=1902
+Test passed for arg_a=-9180 arg_b=28899
+Test passed for arg_a=-20329 arg_b=32767
+Test passed for arg_a=-32768 arg_b=-18887
+Test passed for arg_a=-11812 arg_b=32767
+Test passed for arg_a=-32768 arg_b=32767
+Test passed for arg_a=24310 arg_b=-32768
+Test passed for arg_a=8830 arg_b=12679
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-1143 arg_b=32767
+Test passed for arg_a=32767 arg_b=-20006
+Test passed for arg_a=16039 arg_b=9235
+Test passed for arg_a=8003 arg_b=-8957
+Test passed for arg_a=-10969 arg_b=10550
+Test passed for arg_a=-29804 arg_b=5125
+Test passed for arg_a=11286 arg_b=27599
+Test passed for arg_a=32767 arg_b=-21255
+Test passed for arg_a=-21434 arg_b=19352
+Test passed for arg_a=-11228 arg_b=-32768
+Test passed for arg_a=9155 arg_b=-22760
+Test passed for arg_a=7029 arg_b=-454
+Test passed for arg_a=-17637 arg_b=-30624
+Test passed for arg_a=19672 arg_b=29728
+Test passed for arg_a=-9129 arg_b=-20793
+Test passed for arg_a=-32768 arg_b=-22515
+Test passed for arg_a=22186 arg_b=19166
+Test passed for arg_a=-11174 arg_b=403
+Test passed for arg_a=-1069 arg_b=-32768
+Test passed for arg_a=16529 arg_b=-15677
+Test passed for arg_a=3093 arg_b=-32768
+Test passed for arg_a=29909 arg_b=515
+Test passed for arg_a=4116 arg_b=10515
+Test passed for arg_a=20268 arg_b=25912
+Test passed for arg_a=-30688 arg_b=29431
+Test passed for arg_a=-9767 arg_b=-13255
+Test passed for arg_a=32767 arg_b=32767
+Test passed for arg_a=-19834 arg_b=-3723
+Test passed for arg_a=7645 arg_b=-19837
+Test passed for arg_a=-14179 arg_b=31010
+Test passed for arg_a=-32768 arg_b=-24038
+Test passed for arg_a=-9582 arg_b=-32631
+Test passed for arg_a=16235 arg_b=-6019
+Test passed for arg_a=23746 arg_b=26150
+Test passed for arg_a=-25057 arg_b=18042
+Test passed for arg_a=12612 arg_b=-26675
+Test passed for arg_a=341 arg_b=8502
+Test passed for arg_a=32767 arg_b=3458
+Test passed for arg_a=28540 arg_b=-11230
+Test passed for arg_a=10398 arg_b=30458
+Test passed for arg_a=17402 arg_b=-4516
+Test passed for arg_a=5812 arg_b=-2044
+Test passed for arg_a=-32768 arg_b=-32768
+Test passed for arg_a=3621 arg_b=9645
+Test passed for arg_a=29085 arg_b=32767
+Test passed for arg_a=32767 arg_b=-32768
+Test passed for arg_a=-9854 arg_b=32767
+Test passed for arg_a=-32768 arg_b=4268
+Test passed for arg_a=15083 arg_b=-17780
+Test passed for arg_a=-292 arg_b=32767
+Test passed for arg_a=9623 arg_b=23452
+Test passed for arg_a=-14443 arg_b=25439
+Test passed for arg_a=8889 arg_b=22955
+Test passed for arg_a=4363 arg_b=30520
+Test passed for arg_a=-32768 arg_b=-32427
+Test passed for arg_a=16393 arg_b=9991
+Test passed for arg_a=-32768 arg_b=10989
+Test passed for arg_a=26403 arg_b=90
+Test passed for arg_a=-32768 arg_b=7534
+Test passed for arg_a=-456 arg_b=-26756
+Test passed for arg_a=-391 arg_b=18365
+Test passed for arg_a=16965 arg_b=-32768
+Test passed for arg_a=-5026 arg_b=32767
+Test passed for arg_a=15211 arg_b=2930
+Test passed for arg_a=22393 arg_b=9345
+Test passed for arg_a=23076 arg_b=-19647
+Test passed for arg_a=-28612 arg_b=-7641
+Test passed for arg_a=1882 arg_b=-32768
+Test passed for arg_a=-31323 arg_b=-2118
+Test passed for arg_a=-30684 arg_b=-20899
+Test passed for arg_a=-32768 arg_b=-27478
+Test passed for arg_a=-25941 arg_b=31797
+Test passed for arg_a=-15758 arg_b=8026
+Test passed for arg_a=21273 arg_b=2520
+Test passed for arg_a=-18339 arg_b=-31456
+Test passed for arg_a=-32768 arg_b=21222
+Test passed for arg_a=27533 arg_b=16987
+Test passed for arg_a=30509 arg_b=17017
+Test passed for arg_a=-8987 arg_b=-11539
+Test passed for arg_a=30143 arg_b=10923
+[1;30m[102m-----------------------------------
+----------- Test PASSED -----------
+-----------------------------------[0m
+
+Simulation complete via $finish(1) at time 114090 NS + 3
+../tb/vdic_dut_2023_tb.sv:150     $finish;
+xcelium> ^C
+xcelium> exit
+See ./cov_work/scope/test/icc.com file for message(s) on coverage constant object marking
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  top(top)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_08d62f4e_00000000.ucm
+  data               :  ./cov_work/scope/test/icc_08d62f4e_00000000.ucd
+TOOL:	xrun	21.03-s009: Exiting on Oct 16, 2023 at 22:16:18 CEST  (total: 00:01:31)
