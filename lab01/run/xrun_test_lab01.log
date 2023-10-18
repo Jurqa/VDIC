@@ -1211,7 +1211,7 @@ Test passed for arg_a=30143 arg_b=10923
 -----------------------------------[0m
 
 Simulation complete via $finish(1) at time 114090 NS + 3
-../tb/vdic_dut_2023_tb.sv:153     $finish;
+../tb/vdic_dut_2023_tb.sv:121     $finish;
 xcelium> exit
 See ./cov_work/scope/test/icc.com file for message(s) on coverage constant object marking
 
@@ -1222,5 +1222,5 @@ coverage setup:
   testname :  test
 
 coverage files:
-  model(design data) :  ./cov_work/scope/icc_775ea9b6_00000000.ucm
-  data               :  ./cov_work/scope/test/icc_775ea9b6_00000000.ucd
+  model(design data) :  ./cov_work/scope/icc_437cddca_00000000.ucm
+  data               :  ./cov_work/scope/test/icc_437cddca_00000000.ucd

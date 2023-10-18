@@ -1,4 +1,4 @@
-TOOL:	xrun	21.03-s009: Started on Oct 16, 2023 at 22:14:47 CEST
+TOOL:	xrun	21.03-s009: Started on Oct 18, 2023 at 17:45:44 CEST
 xrun
 	-F ../tb/tb.f
 		../../common/vdic_dut_2023.svp
@@ -221,7 +221,7 @@ xmelab: *W,DLCVAR (/cad/dk/PDK_CRN45GS_DGO_11_25/PDK/cds.lib,6): cds.lib Invalid
 	Design hierarchy summary:
 		              Instances  Unique
 		Modules:              2       2
-		Registers:           47      47
+		Registers:           50      50
 		Scalar wires:        17       -
 		Vectored wires:      10       -
 		Always blocks:        1       1
@@ -1269,7 +1269,7 @@ Test passed for arg_a=30143 arg_b=10923
 -----------------------------------[0m
 
 Simulation complete via $finish(1) at time 114090 NS + 3
-../tb/vdic_dut_2023_tb.sv:150     $finish;
+../tb/vdic_dut_2023_tb.sv:121     $finish;
 xcelium> ^C
 xcelium> exit
 See ./cov_work/scope/test/icc.com file for message(s) on coverage constant object marking
@@ -1281,6 +1281,6 @@ coverage setup:
   testname :  test
 
 coverage files:
-  model(design data) :  ./cov_work/scope/icc_08d62f4e_00000000.ucm
-  data               :  ./cov_work/scope/test/icc_08d62f4e_00000000.ucd
-TOOL:	xrun	21.03-s009: Exiting on Oct 16, 2023 at 22:16:18 CEST  (total: 00:01:31)
+  model(design data) :  ./cov_work/scope/icc_437cddca_00000000.ucm
+  data               :  ./cov_work/scope/test/icc_437cddca_00000000.ucd
+TOOL:	xrun	21.03-s009: Exiting on Oct 18, 2023 at 17:46:20 CEST  (total: 00:00:36)

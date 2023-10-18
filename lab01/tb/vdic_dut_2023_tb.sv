@@ -1,29 +1,8 @@
 /*
- Copyright 2013 Ray Salemi
-
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
-
- http://www.apache.org/licenses/LICENSE-2.0
-
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
-
- History:
- 2021-10-05 RSz, AGH UST - test modified to send all the data on negedge clk
- and check the data on the correct clock edge (covergroup on posedge
- and scoreboard on negedge). Scoreboard and coverage removed.
+16b multiplier with parity check testbench module
  */
 
 module top;
-
-//------------------------------------------------------------------------------
-// Type definitions
-//------------------------------------------------------------------------------
 
 typedef enum bit[2:0] {
     no_op  = 3'b000,
@@ -98,18 +77,8 @@ initial begin
     end
 end
 
-//------------------------------------------------------------------------------
-// Tester
-//------------------------------------------------------------------------------
 
-//---------------------------------
-// Random data generation functions
-
-//cos tu trzeba XD
-
-//---------------------------------
 function logic signed [15:0] get_data();
-
     bit [2:0] zero_ones;
     zero_ones = 3'($random);
 
@@ -131,10 +100,9 @@ initial begin : tester
         @(posedge clk)
         arg_a = get_data();
         arg_b = get_data();
-        req  = 1'b1;
-        
         arg_a_parity = ^arg_a;
 	    arg_b_parity = ^arg_b;
+	    req  = 1'b1;
 	    if(arg_parity_error) begin
 		    $display("Parity error:%0d", result_parity);
 		   end
@@ -158,7 +126,6 @@ end : tester
 //------------------------------------------------------------------------------
 
 task reset();
-    req   = 1'b0;
     rst_n = 1'b0;
     @(negedge clk);
     rst_n = 1'b1;
@@ -177,6 +144,12 @@ function logic [31:0] get_expected(
     return(ret);
 endfunction : get_expected
 
+
+function logic parity(logic signed [31:0] expected);
+	logic ret;
+	ret = ^expected;
+	return(ret);
+endfunction : parity
 //------------------------------------------------------------------------------
 // Temporary. The scoreboard will be later used for checking the data
 final begin : finish_of_the_test
